@@ -1,7 +1,8 @@
 # 🛒 Customer Shopping Behavior Analysis
 
-An end-to-end **Data Analytics project** that analyzes customer shopping patterns, purchasing trends, and business insights using retail transaction data.  
-This project demonstrates practical **data cleaning, exploratory data analysis (EDA), and dashboard development skills** required for real-world Data Analyst roles.
+An end-to-end **Data Analytics project** that analyzes customer shopping patterns, purchasing trends, and business insights using retail transaction data.
+
+This project demonstrates real-world **data cleaning, SQL analysis, and dashboard development skills** using industry-standard tools like **Python, PostgreSQL, Power BI, and Git/GitHub**.
 
 ---
 
@@ -14,19 +15,22 @@ The objective of this project is to analyze customer shopping data to:
 - Understand purchasing behavior
 - Evaluate category performance
 - Generate business insights
-- Build an interactive dashboard for decision-making
+- Build an interactive dashboard for business decision-making
 
 ---
 
 # 🧰 Tech Stack
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
-- **Power BI**
-- **Jupyter Notebook**
+The following tools and technologies were used in this project:
+
+- **Python** → Data Cleaning and Exploratory Data Analysis  
+- **PostgreSQL** → Data Storage and SQL Analysis  
+- **Power BI** → Dashboard and Data Visualization  
+- **Git** → Version Control  
+- **GitHub** → Project Management and Repository Hosting  
+- **Pandas & NumPy** → Data Manipulation  
+- **Matplotlib & Seaborn** → Data Visualization  
+- **Jupyter Notebook** → Analysis Environment  
 
 ---
 
@@ -52,39 +56,46 @@ The dataset contains customer shopping transaction details such as:
 
 # 🔄 Project Workflow
 
-## 1. Data Cleaning
+## 1. Data Cleaning (Python)
 
-- Checked missing values
-- Handled inconsistencies
-- Fixed data types
+- Checked and handled missing values
+- Fixed incorrect data types
+- Removed inconsistencies
+- Prepared dataset for SQL and dashboard use
 
-## 2. Exploratory Data Analysis (EDA)
+---
 
-Performed analysis on:
+## 2. Data Analysis (PostgreSQL)
 
-- Customer demographics
-- Revenue trends
-- Category performance
-- Payment methods
-- Customer spending patterns
-
-## 3. Business Insights
-
-Identified:
-
-- Top performing product categories
-- High-value customers
-- Purchase behavior trends
-- Impact of discounts and promo codes
-
-## 4. Dashboard Creation
-
-Built an **interactive Power BI dashboard** to visualize:
+Performed SQL analysis to find:
 
 - Total Revenue
+- Top Performing Categories
+- Customer Spending Patterns
+- Revenue by Gender and Age Group
+- Impact of Discounts
+
+---
+
+## 3. Exploratory Data Analysis (Python)
+
+Performed:
+
+- Customer demographic analysis
+- Purchase trend analysis
+- Category performance analysis
+
+---
+
+## 4. Dashboard Creation (Power BI)
+
+Built an **interactive Power BI dashboard** showing:
+
+- Total Revenue
+- Sales by Category
 - Customer Segmentation
-- Category Performance
 - Purchase Trends
+- Business KPIs
 
 ---
 
@@ -106,7 +117,8 @@ https://portfolio-upgrade-rho.vercel.app/
 Customer-Shopping-Behavior-Analysis/
 
 │── data/
-│── notebooks/
+│── sql/
+│── notebook/
 │── dashboard/
 │── images/
 │── README.md
@@ -116,21 +128,21 @@ Customer-Shopping-Behavior-Analysis/
 
 # 📈 Key Insights
 
-- Certain age groups contribute more to revenue
+- Certain age groups contribute significantly more revenue
 - Some product categories generate the highest sales
-- Discounts influence customer purchasing behavior
-- Loyal customers generate more long-term revenue
+- Discounts influence customer purchasing decisions
+- Loyal customers generate higher long-term value
 
 ---
 
 # 🎯 Skills Demonstrated
 
-- Data Cleaning
-- Exploratory Data Analysis
-- Data Visualization
-- Business Analysis
-- Dashboard Development
-- Insight Generation
+- Python Data Analysis
+- SQL Analysis using PostgreSQL
+- Dashboard Development using Power BI
+- Data Cleaning and Preprocessing
+- Business Insight Generation
+- Version Control using Git and GitHub
 
 ---
 
@@ -139,10 +151,10 @@ Customer-Shopping-Behavior-Analysis/
 **Anand Dubey**
 
 GitHub:  
-https://github.com/ananddddubey
+https://github.com/ananddddubey  
 
 Portfolio:  
-https://portfolio-upgrade-rho.vercel.app/
+https://portfolio-upgrade-rho.vercel.app/  
 
 LinkedIn:  
 https://www.linkedin.com/in/anand-dubey-8284a4256/
